@@ -1,561 +1,1120 @@
 let questions = [
     {
         numb: 1,
-        question: "Chemical kinetics is primarily concerned with:",
-        answer: "B. Rates of chemical reactions",
+        question: "Petrochemicals are primarily derived from which raw materials?",
+        answer: "B. Petroleum and natural gas",
         options: [
-            "A. Chemical equilibrium",
-            "B. Rates of chemical reactions",
-            "C. Phase equilibrium",
-            "D. Energy balances"
+            "A. Coal and biomass",
+            "B. Petroleum and natural gas",
+            "C. Metals and ores",
+            "D. Water and air"
         ]
     },
     {
         numb: 2,
-        question: "Chemical Reaction Engineering (CRE) is mainly concerned with:",
-        answer: "C. Design and analysis of chemical reactors",
+        question: "Petrochemicals are mainly which type of compounds?",
+        answer: "C. Organic compounds",
         options: [
-            "A. Separation processes",
-            "B. Fluid mechanics",
-            "C. Design and analysis of chemical reactors",
-            "D. Thermodynamics only"
+            "A. Inorganic salts",
+            "B. Metallic compounds",
+            "C. Organic compounds",
+            "D. Ionic compounds"
         ]
     },
     {
         numb: 3,
-        question: "A chemical reactor is a device in which:",
-        answer: "C. Change in composition occurs by chemical reaction",
+        question: "Which of the following is NOT a fossil fuel source of petrochemicals?",
+        answer: "D. Solar energy",
         options: [
-            "A. Heat transfer occurs",
-            "B. Pressure is increased",
-            "C. Change in composition occurs by chemical reaction",
-            "D. Mass is stored"
+            "A. Petroleum",
+            "B. Natural gas",
+            "C. Coal",
+            "D. Solar energy"
         ]
     },
     {
         numb: 4,
-        question: "The reactor is called the heart of a chemical process because:",
-        answer: "C. Chemical transformation occurs in it",
+        question: "Olefins are considered major petrochemical building blocks. Which of the following is an olefin?",
+        answer: "A. Ethylene",
         options: [
-            "A. It stores reactants",
-            "B. It controls pressure",
-            "C. Chemical transformation occurs in it",
-            "D. It controls flow rate"
+            "A. Ethylene",
+            "B. Benzene",
+            "C. Toluene",
+            "D. Xylene"
         ]
     },
     {
         numb: 5,
-        question: "The extensive rate of reaction refers to:",
-        answer: "B. Observed rate of formation of a species",
+        question: "Which group belongs to aromatic petrochemical building blocks?",
+        answer: "B. Benzene, toluene, and xylenes",
         options: [
-            "A. Rate per unit volume",
-            "B. Observed rate of formation of a species",
-            "C. Rate constant",
-            "D. Reaction order"
+            "A. Methane, ethane, propane",
+            "B. Benzene, toluene, and xylenes",
+            "C. Ethylene, propylene, butadiene",
+            "D. Hydrogen, nitrogen, oxygen"
         ]
     },
     {
         numb: 6,
-        question: "The intensive rate of reaction is obtained by dividing extensive rate by:",
-        answer: "C. A normalizing quantity",
+        question: "Petroleum is scientifically described as:",
+        answer: "C. A complex mixture of hydrocarbons",
         options: [
-            "A. Time",
-            "B. Temperature",
-            "C. A normalizing quantity",
-            "D. Pressure"
+            "A. A pure compound",
+            "B. An inorganic liquid",
+            "C. A complex mixture of hydrocarbons",
+            "D. A simple organic solvent"
         ]
     },
     {
         numb: 7,
-        question: "When a reactant is consumed, its rate of reaction is:",
-        answer: "C. Negative",
+        question: "Which elements are mainly present in petroleum?",
+        answer: "A. Carbon and hydrogen",
         options: [
-            "A. Positive",
-            "B. Zero",
-            "C. Negative",
-            "D. Constant"
+            "A. Carbon and hydrogen",
+            "B. Oxygen and nitrogen",
+            "C. Sodium and chlorine",
+            "D. Calcium and magnesium"
         ]
     },
     {
         numb: 8,
-        question: "A homogeneous reaction takes place in:",
-        answer: "B. One phase only",
+        question: "Liquid hydrocarbons in crude oil typically start from which carbon number?",
+        answer: "B. C4–C5",
         options: [
-            "A. Two phases",
-            "B. One phase only",
-            "C. Three phases",
-            "D. Gas–solid systems"
+            "A. C1–C2",
+            "B. C4–C5",
+            "C. C10–C12",
+            "D. C20–C25"
         ]
     },
     {
         numb: 9,
-        question: "A heterogeneous reaction requires:",
-        answer: "C. At least two phases",
+        question: "Which impurity may be found in crude petroleum?",
+        answer: "D. Sulfur compounds",
         options: [
-            "A. High temperature",
-            "B. A catalyst",
-            "C. At least two phases",
-            "D. High pressure"
+            "A. Sodium chloride",
+            "B. Calcium carbonate",
+            "C. Silica",
+            "D. Sulfur compounds"
         ]
     },
     {
         numb: 10,
-        question: "Enzyme–substrate reactions are difficult to classify because:",
-        answer: "C. They lie between homogeneous and heterogeneous systems",
+        question: "In its crude state, petroleum has:",
+        answer: "B. Minimal value",
         options: [
-            "A. They are very slow",
-            "B. They occur at high temperatures",
-            "C. They lie between homogeneous and heterogeneous systems",
-            "D. They are photochemical"
+            "A. Maximum value",
+            "B. Minimal value",
+            "C. No value",
+            "D. Fixed value"
         ]
     },
+
     {
         numb: 11,
-        question: "A catalyst is a substance that:",
-        answer: "C. Alters reaction rate without being consumed",
+        question: "Refining petroleum mainly increases its:",
+        answer: "C. Economic value",
         options: [
-            "A. Is consumed during reaction",
-            "B. Changes equilibrium constant",
-            "C. Alters reaction rate without being consumed",
-            "D. Acts as a reactant"
+            "A. Density",
+            "B. Viscosity",
+            "C. Economic value",
+            "D. Molecular weight"
         ]
     },
     {
         numb: 12,
-        question: "Which of the following does NOT affect reaction rate?",
-        answer: "D. Colour of reactants",
+        question: "Petroleum fuels contribute approximately how much of global energy supply?",
+        answer: "B. One-third to one-half",
         options: [
-            "A. Concentration",
-            "B. Temperature",
-            "C. Catalytic activity",
-            "D. Colour of reactants"
+            "A. Less than 10%",
+            "B. One-third to one-half",
+            "C. Exactly 75%",
+            "D. Almost 100%"
         ]
     },
     {
         numb: 13,
-        question: "Reaction rate usually increases with:",
-        answer: "B. Increase in reactant concentration",
+        question: "Which of the following is a premium petroleum by-product?",
+        answer: "A. Asphalt",
         options: [
-            "A. Decrease in concentration",
-            "B. Increase in reactant concentration",
-            "C. Decrease in pressure",
-            "D. Decrease in surface area"
+            "A. Asphalt",
+            "B. Coke dust",
+            "C. Tar waste",
+            "D. Sludge"
         ]
     },
     {
         numb: 14,
-        question: "The rate of oxidation of nitric oxide decreases with increase in:",
-        answer: "C. Temperature",
+        question: "Petroleum is also commonly known as:",
+        answer: "C. Oil",
         options: [
-            "A. Pressure",
-            "B. Concentration",
-            "C. Temperature",
-            "D. Surface area"
+            "A. Gasoline",
+            "B. Diesel",
+            "C. Oil",
+            "D. Kerosene"
         ]
     },
     {
         numb: 15,
-        question: "The oxidation of SO₂ to SO₃ is catalyzed by:",
-        answer: "C. Vanadium pentoxide (V₂O₅)",
+        question: "Petroleum was formed mainly from the remains of:",
+        answer: "D. Small animals, algae, and protists",
         options: [
-            "A. Nickel",
-            "B. Platinum",
-            "C. Vanadium pentoxide (V₂O₅)",
-            "D. Iron"
+            "A. Trees and plants",
+            "B. Large animals",
+            "C. Volcanic materials",
+            "D. Small animals, algae, and protists"
         ]
     },
 
-    /* ---------- CALCULATION QUESTIONS ---------- */
-
     {
         numb: 16,
-        question: "If 10 moles of A are consumed in 5 seconds, what is the rate of reaction?",
-        answer: "B. -2 mol/s",
+        question: "Which element has the highest weight percentage in crude oil?",
+        answer: "A. Carbon",
         options: [
-            "A. 2 mol/s",
-            "B. -2 mol/s",
-            "C. -50 mol/s",
-            "D. 50 mol/s"
+            "A. Carbon",
+            "B. Hydrogen",
+            "C. Sulfur",
+            "D. Nitrogen"
         ]
     },
     {
         numb: 17,
-        question: "A reactant concentration decreases from 6 mol/L to 4 mol/L in 4 seconds. What is the average rate?",
-        answer: "B. -0.5 mol/L·s",
+        question: "Oil delivers how many times the energy of an equal mass of dynamite?",
+        answer: "C. More than 15 times",
         options: [
-            "A. 0.5 mol/L·s",
-            "B. -0.5 mol/L·s",
-            "C. -2 mol/L·s",
-            "D. 2 mol/L·s"
+            "A. 2 times",
+            "B. 5 times",
+            "C. More than 15 times",
+            "D. Exactly 10 times"
         ]
     },
     {
         numb: 18,
-        question: "If RA = -20 mol/s in a 10 m³ reactor, what is rA?",
-        answer: "B. -2 mol/m³·s",
+        question: "Petroleum is a key raw material for which product?",
+        answer: "B. Pharmaceuticals",
         options: [
-            "A. -200 mol/m³·s",
-            "B. -2 mol/m³·s",
-            "C. 2 mol/m³·s",
-            "D. 200 mol/m³·s"
+            "A. Cement",
+            "B. Pharmaceuticals",
+            "C. Glass",
+            "D. Wood"
         ]
     },
     {
         numb: 19,
-        question: "A product is formed at 8 mol/s. What is the sign of the rate?",
-        answer: "C. Positive",
+        question: "Physical properties of crude oil depend mainly on:",
+        answer: "D. Composition, temperature, and pressure",
         options: [
-            "A. Negative",
-            "B. Zero",
-            "C. Positive",
-            "D. Undefined"
+            "A. Color only",
+            "B. Storage time",
+            "C. Refinery location",
+            "D. Composition, temperature, and pressure"
         ]
     },
     {
         numb: 20,
-        question: "If 15 moles of reactant are consumed in 3 seconds, the rate is:",
-        answer: "B. -5 mol/s",
+        question: "Which is NOT a physical property of crude oil?",
+        answer: "C. Chemical reactivity",
         options: [
-            "A. 5 mol/s",
-            "B. -5 mol/s",
-            "C. -45 mol/s",
-            "D. 45 mol/s"
+            "A. Density",
+            "B. Viscosity",
+            "C. Chemical reactivity",
+            "D. API gravity"
         ]
     },
 
-    /* ---------- THEORY CONTINUES ---------- */
-
     {
         numb: 21,
-        question: "Finely divided coal burns faster than lump coal because of:",
-        answer: "B. Larger surface area",
+        question: "Which of the following is a major hydrocarbon source for petrochemicals?",
+        answer: "A. Methane",
         options: [
-            "A. Higher temperature",
-            "B. Larger surface area",
-            "C. Higher density",
-            "D. Higher pressure"
+            "A. Methane",
+            "B. Water",
+            "C. Oxygen",
+            "D. Nitrogen"
         ]
     },
     {
         numb: 22,
-        question: "Reactions accelerated by light are called:",
-        answer: "C. Photochemical reactions",
+        question: "Naphtha is mainly obtained from:",
+        answer: "C. Petroleum refineries",
         options: [
-            "A. Thermal reactions",
-            "B. Catalytic reactions",
-            "C. Photochemical reactions",
-            "D. Homogeneous reactions"
+            "A. Coal mines",
+            "B. Gas pipelines",
+            "C. Petroleum refineries",
+            "D. Biomass plants"
         ]
     },
     {
         numb: 23,
-        question: "The hydrogen–chlorine reaction proceeds rapidly when exposed to:",
-        answer: "C. Light",
+        question: "BTX refers to:",
+        answer: "B. Benzene, toluene, and xylenes",
         options: [
-            "A. Pressure",
-            "B. Heat",
-            "C. Light",
-            "D. Catalyst"
+            "A. Butane, toluene, xylene",
+            "B. Benzene, toluene, and xylenes",
+            "C. Benzene, propane, ethylene",
+            "D. Butane, toluene, xylene"
         ]
     },
     {
         numb: 24,
-        question: "The mathematical expression relating reaction rate to parameters is called:",
-        answer: "C. Rate law",
+        question: "BTX is mainly obtained from:",
+        answer: "D. Catalytic reforming",
         options: [
-            "A. Design equation",
-            "B. Energy balance",
-            "C. Rate law",
-            "D. Stoichiometric equation"
+            "A. Steam cracking",
+            "B. Distillation",
+            "C. Polymerisation",
+            "D. Catalytic reforming"
         ]
     },
     {
         numb: 25,
-        question: "Chemical kinetics is mainly used by chemical engineers for:",
-        answer: "B. Reactor design",
+        question: "Petrochemical raw materials are usually:",
+        answer: "A. Pure hydrocarbons",
         options: [
-            "A. Separation design",
-            "B. Reactor design",
-            "C. Material testing",
-            "D. Process control only"
+            "A. Pure hydrocarbons",
+            "B. Mixed minerals",
+            "C. Metal alloys",
+            "D. Organic waste"
         ]
     },
 
-    /* ---------- ADDED QUESTIONS 26–50 ---------- */
-
     {
         numb: 26,
-        question: "Reaction rate generally increases exponentially with:",
-        answer: "C. Increase in temperature",
+        question: "First-generation petrochemicals are known as:",
+        answer: "C. Feedstock",
         options: [
-            "A. Increase in volume",
-            "B. Increase in time",
-            "C. Increase in temperature",
-            "D. Increase in pressure only"
+            "A. Finished products",
+            "B. Polymers",
+            "C. Feedstock",
+            "D. Catalysts"
         ]
     },
     {
         numb: 27,
-        question: "Stirring improves reaction rate mainly by improving:",
-        answer: "C. Contact between reactants",
+        question: "Second-generation petrochemicals are called:",
+        answer: "B. Intermediates",
         options: [
-            "A. Temperature",
-            "B. Pressure",
-            "C. Contact between reactants",
-            "D. Equilibrium constant"
+            "A. Feedstock",
+            "B. Intermediates",
+            "C. Residues",
+            "D. Fuels"
         ]
     },
     {
         numb: 28,
-        question: "A reaction occurring between gas and solid phases is classified as:",
-        answer: "C. Heterogeneous reaction",
+        question: "Third-generation petrochemicals are:",
+        answer: "D. Finished products",
         options: [
-            "A. Homogeneous reaction",
-            "B. Photochemical reaction",
-            "C. Heterogeneous reaction",
-            "D. Zero-order reaction"
+            "A. Gases",
+            "B. Intermediates",
+            "C. Feedstock",
+            "D. Finished products"
         ]
     },
     {
         numb: 29,
-        question: "Which professional mainly uses chemical kinetics for reactor design?",
-        answer: "C. Chemical engineer",
+        question: "Which of the following is NOT strictly a petrochemical?",
+        answer: "A. Natural rubber",
         options: [
-            "A. Physicist",
-            "B. Biologist",
-            "C. Chemical engineer",
-            "D. Mathematician"
+            "A. Natural rubber",
+            "B. Ethylene",
+            "C. Propylene",
+            "D. Benzene"
         ]
     },
     {
         numb: 30,
-        question: "If the concentration of reactants remains constant during reaction, the reaction is likely:",
-        answer: "C. Zero-order reaction",
+        question: "Hydrogen produced from steam reforming is used mainly for:",
+        answer: "C. Ammonia production",
         options: [
-            "A. First-order reaction",
-            "B. Second-order reaction",
-            "C. Zero-order reaction",
-            "D. Photochemical reaction"
+            "A. Fuel only",
+            "B. Cooling systems",
+            "C. Ammonia production",
+            "D. Lubrication"
         ]
     },
+
     {
         numb: 31,
-        question: "Which of the following is an example of a very slow reaction?",
-        answer: "C. Oxidation of carbon at room temperature",
+        question: "Feedstock are obtained mainly by:",
+        answer: "A. Distillation and cracking",
         options: [
-            "A. Explosion",
-            "B. Neutralization",
-            "C. Oxidation of carbon at room temperature",
-            "D. Combustion in oxygen"
+            "A. Distillation and cracking",
+            "B. Polymerisation",
+            "C. Condensation",
+            "D. Oxidation"
         ]
     },
     {
         numb: 32,
-        question: "Catalysts are generally used in reactions in:",
-        answer: "C. Small quantities",
+        question: "Which of the following is a gaseous feedstock?",
+        answer: "B. Ethane",
         options: [
-            "A. Large quantities",
-            "B. Stoichiometric quantities",
-            "C. Small quantities",
-            "D. Equal amounts as reactants"
+            "A. Diesel",
+            "B. Ethane",
+            "C. Asphalt",
+            "D. Lubricating oil"
         ]
     },
     {
         numb: 33,
-        question: "The usual units of reaction rate are:",
-        answer: "B. mol/s",
+        question: "Thermal cracking mainly produces:",
+        answer: "C. Olefins",
         options: [
-            "A. mol",
-            "B. mol/s",
-            "C. s/mol",
-            "D. mol²/s"
+            "A. Alcohols",
+            "B. Acids",
+            "C. Olefins",
+            "D. Salts"
         ]
     },
     {
         numb: 34,
-        question: "Chemical kinetics helps in controlling reactions in a:",
-        answer: "B. Predictable and desirable manner",
+        question: "Ethylene and propylene are examples of:",
+        answer: "D. Olefins",
         options: [
-            "A. Random manner",
-            "B. Predictable and desirable manner",
-            "C. Unstable manner",
-            "D. Thermodynamic manner"
+            "A. Aromatics",
+            "B. Paraffins",
+            "C. Naphthenes",
+            "D. Olefins"
         ]
     },
     {
         numb: 35,
-        question: "The normalizing quantity used to define intensive rate may be:",
-        answer: "C. Volume",
+        question: "Monomers are mainly used for:",
+        answer: "B. Polymer production",
         options: [
-            "A. Time",
-            "B. Temperature",
-            "C. Volume",
-            "D. Pressure"
+            "A. Fuel blending",
+            "B. Polymer production",
+            "C. Lubrication",
+            "D. Combustion"
         ]
     },
+
     {
         numb: 36,
-        question: "Jet engines are examples of reactors used mainly for:",
-        answer: "B. Energy generation",
+        question: "Vinyl chloride is produced from:",
+        answer: "A. Olefins",
         options: [
-            "A. Cooling",
-            "B. Energy generation",
-            "C. Separation",
-            "D. Storage"
+            "A. Olefins",
+            "B. Metals",
+            "C. Salts",
+            "D. Alcohols"
         ]
     },
     {
         numb: 37,
-        question: "Reaction rate depends on wavelength in:",
-        answer: "B. Photochemical reactions",
+        question: "Finished petrochemical products include:",
+        answer: "D. Plastics and fibres",
         options: [
-            "A. Thermal reactions",
-            "B. Photochemical reactions",
-            "C. Catalytic reactions",
-            "D. Heterogeneous reactions"
+            "A. Crude oil",
+            "B. Natural gas",
+            "C. Coal",
+            "D. Plastics and fibres"
         ]
     },
     {
         numb: 38,
-        question: "The applied chemist uses kinetics mainly to:",
-        answer: "B. Improve yields and catalysts",
+        question: "Polymerisation reactions usually involve:",
+        answer: "C. Catalysts or initiators",
         options: [
-            "A. Design reactors",
-            "B. Improve yields and catalysts",
-            "C. Study fluid flow",
-            "D. Design separators"
+            "A. Water only",
+            "B. Metals only",
+            "C. Catalysts or initiators",
+            "D. No additives"
         ]
     },
     {
         numb: 39,
-        question: "Reaction rate does NOT directly depend on:",
-        answer: "D. Reactor shape",
+        question: "Thermoplastics differ from thermosets because they:",
+        answer: "A. Can be remelted",
         options: [
-            "A. Concentration",
-            "B. Temperature",
-            "C. Catalyst",
-            "D. Reactor shape"
+            "A. Can be remelted",
+            "B. Are always stronger",
+            "C. Are natural products",
+            "D. Cannot be recycled"
         ]
     },
     {
         numb: 40,
-        question: "The most important change occurring in a reactor is:",
-        answer: "C. Chemical reaction",
+        question: "Which reaction involves breaking large molecules?",
+        answer: "B. Cracking",
         options: [
-            "A. Pressure change",
-            "B. Temperature change",
-            "C. Chemical reaction",
-            "D. Phase change"
+            "A. Polymerisation",
+            "B. Cracking",
+            "C. Condensation",
+            "D. Addition"
         ]
     },
+
     {
         numb: 41,
-        question: "Which factor increases reaction rate by increasing collision frequency?",
-        answer: "A. Concentration",
+        question: "Dehydrogenation involves:",
+        answer: "C. Removal of hydrogen",
         options: [
-            "A. Concentration",
-            "B. Colour",
-            "C. Volume",
-            "D. Reactor material"
+            "A. Addition of hydrogen",
+            "B. Removal of oxygen",
+            "C. Removal of hydrogen",
+            "D. Addition of carbon"
         ]
     },
     {
         numb: 42,
-        question: "Chemical kinetics allows prediction of:",
-        answer: "C. Reaction rate under given conditions",
+        question: "Oxidation reactions involve:",
+        answer: "A. Addition of oxygen",
         options: [
-            "A. Physical properties only",
-            "B. Equilibrium composition only",
-            "C. Reaction rate under given conditions",
-            "D. Phase behavior only"
+            "A. Addition of oxygen",
+            "B. Removal of nitrogen",
+            "C. Addition of sulfur",
+            "D. Polymer formation"
         ]
     },
     {
         numb: 43,
-        question: "Which best describes chemical reaction engineering?",
-        answer: "B. Application of kinetics to reactor design",
+        question: "Addition polymerisation is typical of:",
+        answer: "D. Olefins",
         options: [
-            "A. Study of equilibrium",
-            "B. Application of kinetics to reactor design",
-            "C. Study of phase diagrams",
-            "D. Study of fluid mechanics"
+            "A. Aromatics",
+            "B. Alcohols",
+            "C. Acids",
+            "D. Olefins"
         ]
     },
     {
         numb: 44,
-        question: "Chemical kinetics is essential in reactor design because it determines:",
-        answer: "C. Size and operating conditions of reactors",
+        question: "Condensation polymerisation releases:",
+        answer: "B. Small molecules",
         options: [
-            "A. Cost of raw materials",
-            "B. Colour of products",
-            "C. Size and operating conditions of reactors",
-            "D. Molecular weight of reactants"
+            "A. Heat only",
+            "B. Small molecules",
+            "C. Catalysts",
+            "D. Gases only"
         ]
     },
     {
         numb: 45,
-        question: "Which factor affects reaction rate by lowering activation energy?",
-        answer: "C. Catalyst",
+        question: "Examples of finished plastic forms include:",
+        answer: "C. Granules and powders",
         options: [
-            "A. Pressure",
-            "B. Concentration",
-            "C. Catalyst",
-            "D. Volume"
+            "A. Crude oil",
+            "B. Natural gas",
+            "C. Granules and powders",
+            "D. Asphalt blocks"
         ]
     },
+
     {
         numb: 46,
-        question: "The rate of a reaction is zero when:",
-        answer: "C. Concentration does not affect rate",
+        question: "Casting and moulding are used to produce:",
+        answer: "D. Marketable plastic products",
         options: [
-            "A. Temperature is high",
-            "B. Pressure is low",
-            "C. Concentration does not affect rate",
-            "D. Catalyst is present"
+            "A. Crude oil",
+            "B. Feedstock",
+            "C. Intermediates",
+            "D. Marketable plastic products"
         ]
     },
     {
         numb: 47,
-        question: "Which reaction proceeds only in the presence of light?",
-        answer: "B. Photochemical reaction",
+        question: "Sulfonation is an example of:",
+        answer: "A. Chemical modification reaction",
         options: [
-            "A. Thermal reaction",
-            "B. Photochemical reaction",
-            "C. Catalytic reaction",
-            "D. Homogeneous reaction"
+            "A. Chemical modification reaction",
+            "B. Physical separation",
+            "C. Combustion",
+            "D. Distillation"
         ]
     },
     {
         numb: 48,
-        question: "The main objective of chemical reaction engineering is to:",
-        answer: "B. Design efficient and safe reactors",
+        question: "Chlorination is commonly applied to:",
+        answer: "B. Olefins or aromatics",
         options: [
-            "A. Study equilibrium",
-            "B. Design efficient and safe reactors",
-            "C. Analyze separation processes",
-            "D. Study fluid properties"
+            "A. Metals",
+            "B. Olefins or aromatics",
+            "C. Water",
+            "D. Salts"
         ]
     },
     {
         numb: 49,
-        question: "Reaction rate increases with temperature because:",
-        answer: "C. More molecules have energy above activation energy",
+        question: "Which process generates synthesis gas?",
+        answer: "C. Steam reforming",
         options: [
-            "A. Volume decreases",
-            "B. Pressure decreases",
-            "C. More molecules have energy above activation energy",
-            "D. Catalysts deactivate"
+            "A. Distillation",
+            "B. Polymerisation",
+            "C. Steam reforming",
+            "D. Condensation"
         ]
     },
     {
         numb: 50,
-        question: "Chemical kinetics forms the basis for:",
-        answer: "C. Reactor design and scale-up",
+        question: "Synthesis gas is mainly a mixture of:",
+        answer: "A. Hydrogen and carbon monoxide",
         options: [
-            "A. Phase equilibrium analysis",
-            "B. Separation processes",
-            "C. Reactor design and scale-up",
-            "D. Material balances only"
+            "A. Hydrogen and carbon monoxide",
+            "B. Oxygen and nitrogen",
+            "C. Methane and ethane",
+            "D. Carbon dioxide and sulfur dioxide"
+        ]
+    },
+
+    {
+        numb: 51,
+        question: "Synthesis gas is used to produce:",
+        answer: "D. Ammonia and methanol",
+        options: [
+            "A. Plastics only",
+            "B. Gasoline",
+            "C. Lubricants",
+            "D. Ammonia and methanol"
+        ]
+    },
+    {
+        numb: 52,
+        question: "The Fischer–Tropsch process converts synthesis gas into:",
+        answer: "B. Liquid hydrocarbons",
+        options: [
+            "A. Alcohols only",
+            "B. Liquid hydrocarbons",
+            "C. Plastics",
+            "D. Fertilizers"
+        ]
+    },
+    {
+        numb: 53,
+        question: "Methane-based petrochemicals are mainly obtained from:",
+        answer: "A. Natural gas",
+        options: [
+            "A. Natural gas",
+            "B. Coal",
+            "C. Biomass",
+            "D. Water"
+        ]
+    },
+    {
+        numb: 54,
+        question: "Gas oil is obtained from:",
+        answer: "C. Petroleum refineries",
+        options: [
+            "A. Gas wells",
+            "B. Coal processing",
+            "C. Petroleum refineries",
+            "D. Biomass conversion"
+        ]
+    },
+    {
+        numb: 55,
+        question: "Which is NOT an example of an intermediate?",
+        answer: "D. Plastic bag",
+        options: [
+            "A. Ethylene",
+            "B. Propylene",
+            "C. Vinyl chloride",
+            "D. Plastic bag"
+        ]
+    },
+
+    {
+        numb: 56,
+        question: "Which stage directly supplies raw material to polymer plants?",
+        answer: "B. Intermediate stage",
+        options: [
+            "A. Finished products",
+            "B. Intermediate stage",
+            "C. Refining stage",
+            "D. Consumption stage"
+        ]
+    },
+    {
+        numb: 57,
+        question: "Polyolefins are produced from:",
+        answer: "A. Olefins",
+        options: [
+            "A. Olefins",
+            "B. Aromatics",
+            "C. Paraffins",
+            "D. Naphthenes"
+        ]
+    },
+    {
+        numb: 58,
+        question: "Which is a non-hydrocarbon loosely called a petrochemical?",
+        answer: "C. Hydrogen",
+        options: [
+            "A. Cellulose",
+            "B. Natural rubber",
+            "C. Hydrogen",
+            "D. Starch"
+        ]
+    },
+    {
+        numb: 59,
+        question: "Urea production mainly requires:",
+        answer: "B. Ammonia",
+        options: [
+            "A. Ethylene",
+            "B. Ammonia",
+            "C. Propylene",
+            "D. Benzene"
+        ]
+    },
+    {
+        numb: 60,
+        question: "Steam reforming mainly involves:",
+        answer: "D. Hydrocarbons and steam",
+        options: [
+            "A. Oxygen only",
+            "B. Nitrogen only",
+            "C. Carbon dioxide only",
+            "D. Hydrocarbons and steam"
+        ]
+    },
+
+    {
+        numb: 61,
+        question: "Partial oxidation is another method for producing:",
+        answer: "A. Synthesis gas",
+        options: [
+            "A. Synthesis gas",
+            "B. Plastics",
+            "C. Asphalt",
+            "D. Lubricants"
+        ]
+    },
+    {
+        numb: 62,
+        question: "Petrochemical plants may obtain feedstock:",
+        answer: "C. Directly or by further processing",
+        options: [
+            "A. Only from coal",
+            "B. Only from refineries",
+            "C. Directly or by further processing",
+            "D. Only from biomass"
+        ]
+    },
+    {
+        numb: 63,
+        question: "Ethylene glycol is mainly used for:",
+        answer: "B. Polymer and antifreeze production",
+        options: [
+            "A. Fuel blending",
+            "B. Polymer and antifreeze production",
+            "C. Lubrication",
+            "D. Combustion"
+        ]
+    },
+    {
+        numb: 64,
+        question: "Neoprene is classified as:",
+        answer: "A. Synthetic rubber",
+        options: [
+            "A. Synthetic rubber",
+            "B. Thermoset plastic",
+            "C. Fuel additive",
+            "D. Catalyst"
+        ]
+    },
+    {
+        numb: 65,
+        question: "Plastics used for bags are typically:",
+        answer: "C. Thermoplastics",
+        options: [
+            "A. Thermosets",
+            "B. Elastomers",
+            "C. Thermoplastics",
+            "D. Resins only"
+        ]
+    },
+
+    {
+        numb: 66,
+        question: "Thermosetting plastics are characterized by:",
+        answer: "D. Permanent hardening",
+        options: [
+            "A. Easy melting",
+            "B. Elastic behavior",
+            "C. Low strength",
+            "D. Permanent hardening"
+        ]
+    },
+    {
+        numb: 67,
+        question: "Which reaction is common during cracking?",
+        answer: "B. Dissociation",
+        options: [
+            "A. Condensation",
+            "B. Dissociation",
+            "C. Neutralization",
+            "D. Precipitation"
+        ]
+    },
+    {
+        numb: 68,
+        question: "Catalytic cracking mainly increases:",
+        answer: "A. Yield of valuable products",
+        options: [
+            "A. Yield of valuable products",
+            "B. Sulfur content",
+            "C. Density",
+            "D. Ash content"
+        ]
+    },
+    {
+        numb: 69,
+        question: "Addition reactions involve:",
+        answer: "C. Unsaturated hydrocarbons",
+        options: [
+            "A. Metals",
+            "B. Saturated salts",
+            "C. Unsaturated hydrocarbons",
+            "D. Water only"
+        ]
+    },
+    {
+        numb: 70,
+        question: "Which is a final consumer petrochemical product?",
+        answer: "B. Plastic furniture",
+        options: [
+            "A. Ethylene",
+            "B. Plastic furniture",
+            "C. Naphtha",
+            "D. Propylene"
+        ]
+    },
+
+    {
+        numb: 71,
+        question: "Petrochemical synthesis relies heavily on:",
+        answer: "D. Catalytic reactions",
+        options: [
+            "A. Mechanical reactions",
+            "B. Nuclear reactions",
+            "C. Biological reactions",
+            "D. Catalytic reactions"
+        ]
+    },
+    {
+        numb: 72,
+        question: "The main goal of petrochemical industries is to:",
+        answer: "A. Convert hydrocarbons into useful products",
+        options: [
+            "A. Convert hydrocarbons into useful products",
+            "B. Burn fuels",
+            "C. Store crude oil",
+            "D. Export gas only"
+        ]
+    },
+    {
+        numb: 73,
+        question: "Which hydrocarbon is the simplest feedstock?",
+        answer: "C. Methane",
+        options: [
+            "A. Benzene",
+            "B. Propane",
+            "C. Methane",
+            "D. Naphtha"
+        ]
+    },
+    {
+        numb: 74,
+        question: "Which product is commonly obtained from methane chlorination?",
+        answer: "B. Chloromethane",
+        options: [
+            "A. Methanol",
+            "B. Chloromethane",
+            "C. Ethylene",
+            "D. Propylene"
+        ]
+    },
+    {
+        numb: 75,
+        question: "Trichloroethylene is classified as:",
+        answer: "A. Chlorinated hydrocarbon",
+        options: [
+            "A. Chlorinated hydrocarbon",
+            "B. Olefin",
+            "C. Aromatic",
+            "D. Alcohol"
+        ]
+    },
+
+    {
+        numb: 76,
+        question: "Methane-based petrochemicals emphasize:",
+        answer: "D. C1 chemistry",
+        options: [
+            "A. C10 chemistry",
+            "B. C5 chemistry",
+            "C. Aromatic chemistry",
+            "D. C1 chemistry"
+        ]
+    },
+    {
+        numb: 77,
+        question: "Which process uses heat without catalysts?",
+        answer: "B. Thermal cracking",
+        options: [
+            "A. Catalytic reforming",
+            "B. Thermal cracking",
+            "C. Polymerisation",
+            "D. Hydrogenation"
+        ]
+    },
+    {
+        numb: 78,
+        question: "Hydrogenation involves:",
+        answer: "C. Addition of hydrogen",
+        options: [
+            "A. Removal of hydrogen",
+            "B. Addition of oxygen",
+            "C. Addition of hydrogen",
+            "D. Removal of carbon"
+        ]
+    },
+    {
+        numb: 79,
+        question: "Which compound is aromatic?",
+        answer: "A. Benzene",
+        options: [
+            "A. Benzene",
+            "B. Ethane",
+            "C. Propane",
+            "D. Butane"
+        ]
+    },
+    {
+        numb: 80,
+        question: "Polymer beads are considered:",
+        answer: "D. Finished products",
+        options: [
+            "A. Feedstock",
+            "B. Fuels",
+            "C. Intermediates",
+            "D. Finished products"
+        ]
+    },
+
+    {
+        numb: 81,
+        question: "Polymerisation reactions are usually:",
+        answer: "B. Exothermic",
+        options: [
+            "A. Endothermic",
+            "B. Exothermic",
+            "C. Neutral",
+            "D. Isothermal"
+        ]
+    },
+    {
+        numb: 82,
+        question: "Which of the following is NOT an olefin?",
+        answer: "D. Benzene",
+        options: [
+            "A. Ethylene",
+            "B. Propylene",
+            "C. Butadiene",
+            "D. Benzene"
+        ]
+    },
+    {
+        numb: 83,
+        question: "Cracked gases mainly consist of:",
+        answer: "A. Light hydrocarbons",
+        options: [
+            "A. Light hydrocarbons",
+            "B. Heavy metals",
+            "C. Salts",
+            "D. Water vapor only"
+        ]
+    },
+    {
+        numb: 84,
+        question: "Which is an example of a surfactant raw material?",
+        answer: "B. Petrochemicals",
+        options: [
+            "A. Wood",
+            "B. Petrochemicals",
+            "C. Cement",
+            "D. Sand"
+        ]
+    },
+    {
+        numb: 85,
+        question: "Polymer resins are produced from:",
+        answer: "C. Monomers",
+        options: [
+            "A. Fuels",
+            "B. Metals",
+            "C. Monomers",
+            "D. Minerals"
+        ]
+    },
+
+    {
+        numb: 86,
+        question: "Which petrochemical product is used in detergents?",
+        answer: "A. Surfactants",
+        options: [
+            "A. Surfactants",
+            "B. Asphalt",
+            "C. Lubricants",
+            "D. Waxes"
+        ]
+    },
+    {
+        numb: 87,
+        question: "Petrochemical manufacturing usually occurs in:",
+        answer: "D. Several stages",
+        options: [
+            "A. One stage",
+            "B. Two stages",
+            "C. No stages",
+            "D. Several stages"
+        ]
+    },
+    {
+        numb: 88,
+        question: "Carbon monoxide is important for:",
+        answer: "B. Synthesis gas reactions",
+        options: [
+            "A. Combustion only",
+            "B. Synthesis gas reactions",
+            "C. Lubrication",
+            "D. Cooling"
+        ]
+    },
+    {
+        numb: 89,
+        question: "Methanol is classified as:",
+        answer: "A. Chemical intermediate",
+        options: [
+            "A. Chemical intermediate",
+            "B. Finished plastic",
+            "C. Fuel oil",
+            "D. Asphalt"
+        ]
+    },
+    {
+        numb: 90,
+        question: "Petrochemical feedstock can come from:",
+        answer: "C. Natural gas and refineries",
+        options: [
+            "A. Metals only",
+            "B. Water only",
+            "C. Natural gas and refineries",
+            "D. Air only"
+        ]
+    },
+
+    {
+        numb: 91,
+        question: "Which reaction forms long-chain molecules?",
+        answer: "D. Polymerisation",
+        options: [
+            "A. Cracking",
+            "B. Oxidation",
+            "C. Dehydrogenation",
+            "D. Polymerisation"
+        ]
+    },
+    {
+        numb: 92,
+        question: "Which petrochemical product is used for packaging?",
+        answer: "A. Plastics",
+        options: [
+            "A. Plastics",
+            "B. Gasoline",
+            "C. Diesel",
+            "D. Asphalt"
+        ]
+    },
+    {
+        numb: 93,
+        question: "The main source of ethylene is:",
+        answer: "B. Steam cracking",
+        options: [
+            "A. Distillation",
+            "B. Steam cracking",
+            "C. Reforming",
+            "D. Blending"
+        ]
+    },
+    {
+        numb: 94,
+        question: "Aromatics are mainly produced by:",
+        answer: "C. Catalytic reforming",
+        options: [
+            "A. Thermal cracking",
+            "B. Polymerisation",
+            "C. Catalytic reforming",
+            "D. Oxidation"
+        ]
+    },
+    {
+        numb: 95,
+        question: "Petrochemical industries bridge:",
+        answer: "D. Refineries and consumer products",
+        options: [
+            "A. Mines and farms",
+            "B. Gas wells and oceans",
+            "C. Power plants and grids",
+            "D. Refineries and consumer products"
+        ]
+    },
+
+    {
+        numb: 96,
+        question: "Which is a typical petrochemical solvent?",
+        answer: "B. Toluene",
+        options: [
+            "A. Water",
+            "B. Toluene",
+            "C. Salt solution",
+            "D. Ammonia"
+        ]
+    },
+    {
+        numb: 97,
+        question: "Carbon dioxide is produced mainly during:",
+        answer: "A. Reforming reactions",
+        options: [
+            "A. Reforming reactions",
+            "B. Polymerisation",
+            "C. Distillation",
+            "D. Moulding"
+        ]
+    },
+    {
+        numb: 98,
+        question: "Which process increases octane number?",
+        answer: "D. Catalytic reforming",
+        options: [
+            "A. Distillation",
+            "B. Cracking",
+            "C. Polymerisation",
+            "D. Catalytic reforming"
+        ]
+    },
+    {
+        numb: 99,
+        question: "Petrochemical synthesis relies on:",
+        answer: "B. Chemical transformations",
+        options: [
+            "A. Physical mixing",
+            "B. Chemical transformations",
+            "C. Nuclear reactions",
+            "D. Biological decay"
+        ]
+    },
+    {
+        numb: 100,
+        question: "The ultimate purpose of petrochemical synthesis is to:",
+        answer: "C. Produce valuable chemical products",
+        options: [
+            "A. Store hydrocarbons",
+            "B. Waste crude oil",
+            "C. Produce valuable chemical products",
+            "D. Eliminate petroleum use"
         ]
     }
 ];
